@@ -102,3 +102,26 @@
     color: rgba(139,139,139,.8);
     font-size: small;
 }
+
+/* Barra*/
+.container-barra{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item-barra-h4{
+    width: 100%;
+    text-align: center;
+    color: #46484c91;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.item-barra{
+    width: 15%;
+}
+.container-barra > article > .imag-barra{
+    width: 100%;
+}
