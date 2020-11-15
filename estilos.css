@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ /* Barra de navegación del encabezado fijo. */
+.container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0rem;
+    position: fixed;
+    text-align: center;
+    background-color: rgba(250, 243, 232, 0.301);
+}
+
+.logo{
+    width: 15%;
+}
+
+.menu > ul > li{
+    display: inline-block;
+    text-align: center;
+    margin: 14px;
+    font-family: sans-serif;
+
+}
+
+.ref, .menu > ul > li > a{
+    text-decoration: none;
+    color:  #025157;
+    ;
+
+}
+
+.menu{
+    width: 60%;
+    text-align: center;
+}
+
+.actions{
+    width: 20%;
+}
+
+.actions > button:hover{
+    background-color: aqua;
+}
+
+.button-head{
+    font-family: sans-serif;
+    font-weight: 550;
+    color: white;
+    background-color:  #025157;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 20px;
+}
