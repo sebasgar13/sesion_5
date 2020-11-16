@@ -184,3 +184,44 @@
     border-radius: 5px;
     margin-bottom: 40px;
 }
+
+/* Tools to help you publish more and convert readers. */
+.container-tools{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container-tools > header{
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    color: #025157;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -2;
+}
+
+.items-tools{
+    border: 1px rgba(128, 128, 128, 0.452) solid;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.container-tools > article > img{
+    width: 15%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container-tools > article > h4{
+    color: #282a2c;
+    margin-bottom: 20px;
+}
+
+.container-tools > article > p{
+    color: #46484c9d;
+    margin-bottom: 30px;
+}
