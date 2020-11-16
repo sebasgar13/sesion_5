@@ -102,3 +102,76 @@
     color: rgba(139,139,139,.8);
     font-size: small;
 }
+
+/* algo con slider */
+.container-slider{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.item-slider1{
+    width: 30%;
+    background-image: url(https://getmatcha.com/wp-content/uploads/2020/09/0-1-150x150-1.jpeg);
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-size: 100%;
+    border-radius: 15px;
+}
+.item-slider1 > h4{
+    width: 100%;
+    margin-top: 200px;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    color: #025157;
+}
+.item-slider1 > p{
+    margin-bottom: 50px;
+}
+.item-slider1 > a{
+    background-color: #025157;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-left: 100px;
+    font-weight: 900;
+}
+
+.item-slider1 > a:hover{
+    background-color: yellowgreen;
+}
+
+.item-slider1 > p{
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.item-slider2{
+    width: 65%;
+
+}
+.item-slider2 > h3{
+    margin-bottom: 25px;
+    font-size: 55px;
+    letter-spacing: -3px;
+    color: #025157;
+}
+.item-slider2 > p {
+    margin-bottom: 25px;
+    color: #46484c;
+    font-size: large;
+}
+.item-slider2 > button{
+    background-color: #025157;
+    padding: 15px;
+    color: aliceblue;
+    font-weight: 900;
+    border-radius: 10px;
+}
+
+.item-slider2 > button:hover{
+    background-color: greenyellow;
+}
