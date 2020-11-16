@@ -102,3 +102,178 @@
     color: rgba(139,139,139,.8);
     font-size: small;
 }
+
+/* cuatro articles */
+.container-4-articles{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: spacd-around;
+    flex-wrap: wrap;
+}
+
+.item-4-articles1, .item-4-articles2{
+    width: 45%;
+    height: 250px;
+    margin-bottom: 50px;
+    background-color: rgb(131, 156, 21);
+    border-radius: 15px;
+    padding: 30px;
+
+}
+
+.item-4-articles1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-4-articles1 > h4, .item-4-articles1 > p{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.item-4-articles2{
+    display: flex;    
+}
+.item-4-articles2 > div{
+    width: 50%;
+}
+.reducir{   
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 49%;
+
+}
+.container-4-articles > article > a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.container-4-articles > article > div > a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.h4-4-articles-v{
+    color: #025157;
+    font-size: 25px;
+}
+
+.h4-4-articles-w{
+    color: white;
+    font-size: 30px;
+}
+
+/* Anuncio para provar*/
+.container-provar{
+    width: 96%;
+    margin-top: 150px;
+    margin-bottom: 150PX;
+    margin-left: 2%;
+    height: 300px;
+    display: flex;
+    background-color: #025157;
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+}
+
+.items-provar1, .items-provar2{
+    width: 50%;
+    color: aliceblue;
+    padding-left: 80px;
+}
+
+.h3-provar{
+    font-size: 28px;
+
+    margin-bottom: 30px;
+}
+
+.anchor-provar{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.items-provar2 > button{
+    background-color: yellowgreen;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.item-p-provar{
+    font-weight: 900;
+}
+
+/* Pie de página*/
+
+.item-pie1{
+    grid-area: suscribete;
+}
+.item-pie2{
+    grid-area: products;
+}
+.item-pie3{
+    grid-area: matcha;
+}
+.item-pie4{
+    grid-area: resources;
+}
+.container-pie{
+    display: grid;
+    grid-template-areas: 
+    'suscribete suscribete products matcha resources'
+    
+    ;
+    gap: 10px;
+    padding: 10px;
+}
+
+.container-pie > article{
+    height: 300px;
+}
+
+.container-pie > article > h4{
+    color: #025157;
+    margin-bottom: 15px;
+}
+
+.pie-list{
+    list-style-type: none; 
+}
+
+.pie-list > li{
+    margin-bottom: 15px;
+}
+
+.pie-list > li > a{
+    text-decoration: none;
+    color: #46484c;
+    font-size: 20px;
+}
+
+.item-pie1 > p{
+    color: #46484c;
+    margin-bottom: 50px;
+}
+
+.item-pie1 > div > input{
+    border: 1px solid black;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    margin-right: 0;
+}
+
+.item-pie1 > div > button{
+    margin-left: 0;
+    border-radius: 15px;
+    background-color: #025157;
+    color: antiquewhite;
+    padding: 15px;
+}
