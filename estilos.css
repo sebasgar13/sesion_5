@@ -298,3 +298,45 @@
 .item-slider2 > button:hover{
     background-color: greenyellow;
 }
+
+/* tabla*/
+.container-tabla{
+    margin-top: 150px;
+}
+
+table{
+    width: 90%;
+    margin-left: 5%;
+}
+table, th, td
+{
+  border: 1px solid rgba(41, 39, 39, 0.479);
+  border-collapse: collapse;
+}
+
+th.cigl{
+    width: 55%;
+    text-align: left;
+    color: #025157;
+    padding: 40px;
+    font-size: 28px;
+ }
+
+th.cdgl{
+    width: 15%;
+}
+
+ .container-tabla > h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #025157;
+    font-size: 55px;
+ }
+
+td{
+    padding: 40px;
+}
+
+.celdas-center{
+    text-align: center;
+}
