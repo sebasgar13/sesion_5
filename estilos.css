@@ -1048,8 +1048,6 @@ para dspositivos moviles */
         padding: 0;
         background-image: url("");
         background-repeat: no-repeat;
-        background-position:;
-        background-size:;
         margin-top: 50px;
         margin-bottom: 50px;
         width: 90%;
@@ -1068,7 +1066,6 @@ para dspositivos moviles */
     }
     .item-interactiva1{
         width: 100%;
-        grid-column:;
         grid-row: auto;
         -moz-border-radius: 0%;
         -webkit-border-radius: 0%;
@@ -1089,8 +1086,6 @@ para dspositivos moviles */
         flex-direction: column-reverse;
         justify-content: space-between;
         width: 100%;
-        grid-column: ;
-        grid-row: auto;
         padding-left: 0px;
     }
     .item-interactiva3{
@@ -1099,16 +1094,12 @@ para dspositivos moviles */
         width: 100%;
         justify-content: space-between;
         width: 100%
-        grid-column: ;
-        grid-row: auto;
     }
     .item-interactiva4{
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
         justify-content: space-between;
-        grid-column: ;
-        grid-row: auto;
         padding-top: 0px;
         padding-left: 0px;
         padding-right: 0;
@@ -1117,7 +1108,6 @@ para dspositivos moviles */
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
-        grid-column: ;
         grid-row: auto;
         padding-left: 0px;
     }
@@ -1125,7 +1115,6 @@ para dspositivos moviles */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        grid-column: ;
         grid-row: auto;
     }
 
