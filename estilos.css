@@ -758,26 +758,27 @@ para dspositivos moviles */
 
     /* Barra*/
     .container-barra{
-        width: 50%;
-        display: none;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: nowrap;
+        width: 300px;
+        display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .item-barra-h4{
-        width: 100%;
+        width: 300px;
         text-align: center;
         color: #46484c91;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 0px;
     }
     .item-barra{
         width: 15%;
     }
     .imag-barra{
         width: 60%;
+
     }
 
     /* seccion features */
@@ -1309,7 +1310,5 @@ para dspositivos moviles */
         color: antiquewhite;
         padding: 15px;
     }
-
-
 
 }
